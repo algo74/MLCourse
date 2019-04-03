@@ -169,7 +169,7 @@ After 300 epochs, the validation accuracy was 88.00% (+/- 0.26% STD). However, b
 
 Quite noticeably, the last set of data (the set that was used in all previous studies) produced the best validation accuracy among all sets both after 300 epochs and after 400 epochs, which indicated that our selection of the networks could be bias toward this set.
 
-## Final training on full training set ([file 8](HW2_file8.ipynb))
+## Final training on full training set ([file 9](HW2_file9.ipynb))
 
 The "best network" was selected to be trained on the full training set and evaluated on the test set.
 
