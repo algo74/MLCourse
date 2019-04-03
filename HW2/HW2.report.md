@@ -155,7 +155,7 @@ Performance of SGD optimizer (used everywhere else in the project) was compared 
 
 ## K-fold validation ([file 8](HW2_file8.ipynb))
 
-K-fold validation (with $K=5$) was performed on the "best model" (file 7b).
+K-fold validation (with K=5) was performed on the "best model" (file 7b).
 
 ### Notes on implementation
 
