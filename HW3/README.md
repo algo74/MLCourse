@@ -6,7 +6,7 @@
 
 I used more aggressive data augmentation (than in the notebook shown in the class) and dropouts for fully connected network to get better results.
 
-Also I used preprocess_input from keras.applications.vgg19 in the ImageDataGenerator. It improved accuracy considerably.
+Also I used `preprocess_input` from `keras.applications.vgg19` in the `ImageDataGenerator`. It improved accuracy considerably.
 
 Having a more complicated "head" seemed to be unjustified given just one binary classifier and the tendency of overfitting. I tried to add another convolutional layer, but it did not do any good.
 
@@ -41,4 +41,4 @@ I had to rebuild the model for similar reasons as in Problem 3.
 
 I visualized four classes: 'true cat', 'true dog', 'fake cat', and 'fake dog' and showed results for two values of perplexity. 
 
-The convolutional layers do quite decent job separating dogs from cats. The "head" of the NN is able to find a natural border between the classes and also propery classify some outsiders. I might be overly aggressive in assuming cats as "outsider" dogs.
+The convolutional layers did quite decent job separating dogs from cats. The "head" of the NN was able to find a natural border between the classes and also propery classify some outsiders. It might be overly aggressive in assuming cats as "outsider" dogs.
