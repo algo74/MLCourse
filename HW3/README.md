@@ -2,7 +2,7 @@
 
 *by Alexander Goponenko*
 
-## [Problem 1] (HW3_Problem1.ipynb)
+## [Problem 1](HW3_Problem1.ipynb)
 
 I used more aggressive data augmentation (than in the notebook shown in the class) and dropouts for fully connected network to get better results.
 
