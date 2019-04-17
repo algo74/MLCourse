@@ -31,7 +31,7 @@ Some overfitting was observed. Possibly more aggressive data augmentation and/or
 
 Unfortunately, `K.gradients` did not work with the original model. I had to rebuild the model and then set its weights from the old model (otherwise I would have to redo Problems 1 & 2).
 
-I visualized one properly classified dog, one properly classified cat, one cat missclassified as dog, and one dog missclassified as cat. 
+I visualized one properly classified dog, one properly classified cat, one cat misclassified as dog, and one dog misclassified as cat. 
 
 Areas that resemble cats more than dogs are blue and areas that resemble dogs more than cats are red/yellow.
 
@@ -41,4 +41,4 @@ I had to rebuild the model for similar reasons as in Problem 3.
 
 I visualized four classes: 'true cat', 'true dog', 'fake cat', and 'fake dog' and showed results for two values of perplexity. 
 
-The convolutional layers did quite decent job separating dogs from cats. The "head" of the NN was able to find a natural border between the classes and also propery classify some outsiders. It might be overly aggressive in assuming cats as "outsider" dogs.
+The convolutional layers did quite decent job separating dogs from cats. The "head" of the NN was able to find a natural border between the classes and also properly classify some outsiders. It might be overly aggressive in assuming cats as "outsider" dogs.
