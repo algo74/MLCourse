@@ -40,7 +40,7 @@ Some overfitting was observed. Possibly more aggressive data augmentation and/or
 
 ## [Problem 3](HW3_Problem3.ipynb)
 
-Unfortunately, `K.gradients` did not work with the original model. I had to rebuild the model and then set its weights from the old model (otherwise I would have to redo Problems 1 & 2).
+Unfortunately, `K.gradients` did not work with the original model. I had to rebuild the model and then set its weights from the old model (otherwise I would have to redo Problems 1 & 2). I also had to remove the sigmoid activation for the last neuron.
 
 I visualized one properly classified dog, one properly classified cat, one cat misclassified as dog, and one dog misclassified as cat. 
 
