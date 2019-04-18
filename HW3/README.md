@@ -50,6 +50,6 @@ Areas that resemble cats more than dogs are blue and areas that resemble dogs mo
 
 I had to rebuild the model for similar reasons as in Problem 3. 
 
-I visualized four classes: 'true cat', 'true dog', 'fake cat', and 'fake dog' and showed results for two values of perplexity. 
+I visualized four classes ('true cat', 'true dog', 'fake cat', and 'fake dog') and showed results for two values of perplexity. 
 
 The convolutional layers did quite decent job separating dogs from cats. The "head" of the NN was able to find a natural border between the classes and also properly classify some outsiders. It might be overly aggressive in assuming cats as "outsider" dogs.
